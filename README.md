@@ -23,6 +23,9 @@
 - SwiftUI-WRNavigationBar:提供便捷入口自定义导航条(github:https://github.com/wangrui460/SwiftUI-WRNavigationBar)
 - SheetKit:管理模态弹窗、全屏弹窗等以及提供目前Swift UI尚未支持的透明功能(github:https://github.com/fatbobman/SheetKit)
 
+### 运行与调试
+在项目根目录中执行```pod update```，并打开MetaMask.xcworkspace即可
+
 ### 总结
 - 个人对Swift UI声明式编程不太熟悉，没有在实际项目中用过，在编码风格与flutter相似，遇到问题主要通过搜索引擎帮助解决
 - 编码过程中过程中有些地方并不能很好支持，需要了解原理后配合UIKit进行支持
