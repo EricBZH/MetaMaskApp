@@ -1,0 +1,16 @@
+PODS:
+  - SwiftUI-WRNavigationBar (1.1.1)
+
+DEPENDENCIES:
+  - SwiftUI-WRNavigationBar (~> 1.1.1)
+
+SPEC REPOS:
+  trunk:
+    - SwiftUI-WRNavigationBar
+
+SPEC CHECKSUMS:
+  SwiftUI-WRNavigationBar: e44edcd2f73a0a145d79d0f0781b32d6854fe4b1
+
+PODFILE CHECKSUM: b13b431d58976b42bb2cc335879da62d084e9eb7
+
+COCOAPODS: 1.11.3
