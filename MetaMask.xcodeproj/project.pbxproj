@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07629C14288D0E2B00A3A9A1 /* MMDataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07629C10288D0DFE00A3A9A1 /* MMDataTest.swift */; };
+		07629C15288D0E8B00A3A9A1 /* MMCoinListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079BDB7A2883113100B6A212 /* MMCoinListData.swift */; };
+		07629C16288D0E9700A3A9A1 /* MMCoinDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079BDB7C2883114900B6A212 /* MMCoinDetailModel.swift */; };
 		079BDB482883100800B6A212 /* MetaMaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079BDB472883100800B6A212 /* MetaMaskApp.swift */; };
 		079BDB4C2883100900B6A212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079BDB4B2883100900B6A212 /* Assets.xcassets */; };
 		079BDB4F2883100900B6A212 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079BDB4E2883100900B6A212 /* Preview Assets.xcassets */; };
@@ -54,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07629C10288D0DFE00A3A9A1 /* MMDataTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMDataTest.swift; sourceTree = "<group>"; };
 		079BDB442883100800B6A212 /* MetaMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		079BDB472883100800B6A212 /* MetaMaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaMaskApp.swift; sourceTree = "<group>"; };
 		079BDB4B2883100900B6A212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -120,11 +124,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07629C0F288D0DFE00A3A9A1 /* MetaMaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				07629C10288D0DFE00A3A9A1 /* MMDataTest.swift */,
+			);
+			path = MetaMaskTests;
+			sourceTree = "<group>";
+		};
 		079BDB3B2883100800B6A212 = {
 			isa = PBXGroup;
 			children = (
 				079BDB462883100800B6A212 /* MetaMask */,
-				079BDB572883100900B6A212 /* MetaMaskTests */,
+				07629C0F288D0DFE00A3A9A1 /* MetaMaskTests */,
 				079BDB612883100900B6A212 /* MetaMaskUITests */,
 				5CD54C72334D2AA2677FEC65 /* Frameworks */,
 				EAC1A9E84D466291F1E30873 /* Pods */,
@@ -163,13 +175,6 @@
 				079BDB4E2883100900B6A212 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		079BDB572883100900B6A212 /* MetaMaskTests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MetaMaskTests;
 			sourceTree = "<group>";
 		};
 		079BDB612883100900B6A212 /* MetaMaskUITests */ = {
@@ -559,6 +564,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07629C15288D0E8B00A3A9A1 /* MMCoinListData.swift in Sources */,
+				07629C14288D0E2B00A3A9A1 /* MMDataTest.swift in Sources */,
+				07629C16288D0E9700A3A9A1 /* MMCoinDetailModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
